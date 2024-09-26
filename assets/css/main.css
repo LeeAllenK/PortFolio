@@ -1262,6 +1262,13 @@ a.image {
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
 
+.imgNote , .imgMatch , .imgWeather{
+  width: 600px;
+  height: 300px;
+}
+.imgNote:hover , .imgMatch:hover , .imgWeather:hover{
+  transform:scale(1.2);
+}
 /* List */
 ol {
   list-style: decimal;
