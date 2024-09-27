@@ -1262,13 +1262,16 @@ a.image {
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
 
-.imgNote , .imgMatch , .imgWeather{
+.imgNote , .imgMatch , .imgWeather , .imgRemind , .imgReactWeather{
   width: 600px;
   height: 300px;
+  cursor: pointer;
+
 }
-.imgNote:hover , .imgMatch:hover , .imgWeather:hover{
+.imgNote:hover , .imgMatch:hover , .imgWeather:hover , .imgRemind:hover , .imgReactWeather:hover{
   transform:scale(1.2);
 }
+
 /* List */
 ol {
   list-style: decimal;
