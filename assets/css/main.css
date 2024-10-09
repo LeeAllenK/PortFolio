@@ -1263,15 +1263,17 @@ a.image {
     transform: scale(1.075); }
 
 .imgNote , .imgMatch , .imgWeather , .imgRemind , .imgReactWeather{
-  /* border: 2px solid black; */
-  /* border-radius: 5px; */
+
   width: 300px;
   height: 150px;
   cursor: pointer;
 
 }
 .imgNote:hover , .imgMatch:hover , .imgWeather:hover , .imgRemind:hover , .imgReactWeather:hover{
-  transform:scale(1.1);
+  -moz-transform: scale(1.075);
+    -webkit-transform: scale(1.075);
+    -ms-transform: scale(1.075);
+    transform: scale(1.075);
 }
 
 
