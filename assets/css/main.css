@@ -1262,14 +1262,14 @@ a.image {
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
 
-.imgNote , .imgMatch , .imgWeather , .imgHangman , .imgReactCalculator{
+.imgNote , .imgMatch , .imgWeather , .imgHangman , .imgReactCalculator,.imgLearning{
 
   width: 300px;
   height: 150px;
   cursor: pointer;
 
 }
-.imgNote:hover , .imgMatch:hover , .imgWeather:hover , .imgHangman:hover , .imgReactCalculator:hover{
+.imgNote:hover , .imgMatch:hover , .imgWeather:hover , .imgHangman:hover , .imgReactCalculator:hover,.imgLearning:hover{
   -moz-transform: scale(1.075);
     -webkit-transform: scale(1.075);
     -ms-transform: scale(1.075);
